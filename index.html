@@ -1,0 +1,382 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hiWeber</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__wrap">
+          <img
+            src="./images/background-images/logo.png"
+            alt="logo"
+            width="157"
+            height="50"
+          />
+          <nav class="header__nav">
+            <ul class="header__list list">
+              <li><a href="#hero" class="link"> Головна</a></li>
+              <li><a href="#team" class="link">Наша команда</a></li>
+              <li><a href="#clients" class="link">Нашi клієнти</a></li>
+              <li><a href="#problemSolving" class="link">Проблематика</a></li>
+              <li><a href="#technologies" class="link">Технології</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero section container" id="hero">
+        <img
+          src="./images/background-images/hero-img.jpg"
+          alt="hero-title"
+          width="683"
+          height="600"
+        />
+        <div class="hero__wrap">
+          <h1 class="hero__title">Команда “HIWEBER”</h1>
+          <p class="hero__subtitle">
+            розробили сайт для перегляду фільмів та серіалів всього лише за 7
+            днів
+          </p>
+          <a
+            class="hero__link link"
+            href="https://rosshaluz.github.io/team-project-filmoteka/"
+            >Перейти до проєкту</a
+          >
+          <img
+            class="js-img"
+            src="./images/background-images/Java-script.png"
+            alt="js-img"
+          />
+        </div>
+      </section>
+      <section class="container section team" id="team">
+        <h2 class="team__title">
+          <img
+            class="team__title"
+            src="./images/background-images/ourteam-tittle.png"
+            alt="Наша команда"
+            width="348"
+            height="56"
+          />
+        </h2>
+        <ul class="team-list list card-set">
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/rostyslav.jpg"
+              alt="rostyslav"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Rostyslav Haluzinskiy</h3>
+            <p class="team-list__desc">Team Lead</p>
+          </li>
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/vika.jpg"
+              alt="vika"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Viktoriia Trunova</h3>
+            <p class="team-list__desc">Scrum Master</p>
+          </li>
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/dima.jpg"
+              alt="dima"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Dmytro Slobodianiuk</h3>
+            <p class="team-list__desc">Front-end developer</p>
+          </li>
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/vira.jpg"
+              alt="vira"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Vira Mesha</h3>
+            <p class="team-list__desc">Front-end developer</p>
+          </li>
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/andrey.jpg"
+              alt="andrey"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Andrii Shkrab</h3>
+            <p class="team-list__desc">Front-end developer</p>
+          </li>
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/natalya-pavlenko.jpg"
+              alt="natalya-p"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Nataliia Pavlenko</h3>
+            <p class="team-list__desc">Front-end developer</p>
+          </li>
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/denis.jpg"
+              alt="denis"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Denis Bukhtarov</h3>
+            <p class="team-list__desc">Front-end developer</p>
+          </li>
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/darya.jpg"
+              alt="darya"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Daria Fomina</h3>
+            <p class="team-list__desc">Front-end developer</p>
+          </li>
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/ivan.jpg"
+              alt="ivan"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Ivan Onofriichuk</h3>
+            <p class="team-list__desc">Front-end developer</p>
+          </li>
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/olesik.jpg"
+              alt="olesik"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Olesia Andreiko</h3>
+            <p class="team-list__desc">Front-end developer</p>
+          </li>
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/Andrii-Deikalo.jpg"
+              alt="andrey"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Andrii Deikalo</h3>
+            <p class="team-list__desc">Front-end developer</p>
+          </li>
+          <li class="card-item team-list__item">
+            <img
+              src="./images/team/natalya-krakovetska.jpg"
+              alt="nata"
+              width="255"
+              height="255"
+            />
+            <h3 class="team-list__title">Natalia Krakovetska</h3>
+            <p class="team-list__desc">Front-end developer</p>
+          </li>
+        </ul>
+        <img
+          class="team-img"
+          src="./images/background-images/Our-team.png"
+          alt="team-img"
+        />
+      </section>
+
+      <section id="clients" class="section">
+        <div class="container">
+          <div>
+            <img
+              class="group3"
+              src="./images/background-images/Group3.png"
+              alt="group3"
+            />
+            <img
+              class="title"
+              src="./images/background-images/clientsTitle.png"
+              alt="clientsTitle"
+              width="389"
+              height="56"
+            />
+            <ul class="clients__list">
+              <div class="clients__item1">
+                <div class="clients__item-photo-name">
+                  <img
+                    src="./images/people-noname/man.jpg"
+                    alt="man"
+                    width="90"
+                    height="90"
+                  />
+                  <h3>Олексій Завгородній</h3>
+                </div>
+                <div class="clients__number">01</div>
+                <h4>Вік:</h4>
+                <p>30 років.</p>
+                <h4>Сімейний статус:</h4>
+                <p>одружений, має 2 дітей</p>
+                <h4>Посада:</h4>
+                <p>менеджер із продажів у консалтинговій компанії.</p>
+                <h4>Хобі:</h4>
+                <p>подорожі, рибалка, футбол.</p>
+                <h4>Відношення до фільмів та серіалів:</h4>
+                <p>
+                  любить переглядати фільми із сім’єю та спортивні змагання з
+                  друзями.
+                </p>
+                <h4>Кінематографічні вподобання:</h4>
+                <p>комедії, спорт.</p>
+              </div>
+              <div class="clients__item2">
+                <div class="clients__item-photo-name">
+                  <img
+                    src="./images/people-noname/woman.jpg"
+                    alt="women"
+                    width="90"
+                    height="90"
+                  />
+                  <h3>Катерина Козак</h3>
+                </div>
+                <div class="clients__number">02</div>
+                <h4>Вік:</h4>
+                <p>38 років.</p>
+                <h4>Сімейний статус:</h4>
+                <p>заміжня, має 3 дітей</p>
+                <h4>Посада:</h4>
+                <p>начальник відділу кадрів у банківській установі.</p>
+                <h4>Хобі:</h4>
+                <p>іноземні мови, кемпінг, кулінарія.</p>
+                <h4>Відношення до фільмів та серіалів:</h4>
+                <p>
+                  любить переглядати фільми та серіали іноземною мовою або із
+                  субтитрами. Це допомагає їй покращувати навички англійської та
+                  іспанської мови.
+                </p>
+                <h4>Кінематографічні вподобання:</h4>
+                <p>комедії, драми, трилери.</p>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="problemSolving" class="section">
+        <div class="container">
+          <img
+            class="title"
+            src="./images/background-images/problemsTitle.png"
+            alt="problemSolving"
+          />
+
+          <div class="flex-problems flex-problems1">
+            <div class="box"><div class="first">01</div></div>
+            <p class="text-problems">Зручний пошук фільмів</p>
+          </div>
+
+          <div class="flex-problems flex-problems2">
+            <div class="box"><div class="second">02</div></div>
+            <p class="text-problems">
+              Великий вибір фільмів за різними жанкрами
+            </p>
+          </div>
+
+          <div class="flex-problems flex-problems3">
+            <div class="box"><div class="third">03</div></div>
+            <p class="text-problems">
+              Час проведений із користю та класними емоціями
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="technologies" class="section section__technology">
+        <div class="container">
+          <img
+            class="title"
+            src="./images/background-images/technologies-tittle.png"
+            alt="dfgh"
+          />
+          <ul class="technology__list list">
+            <li class="technology__item">
+              <h3 class="technology__title-min">Front-End</h3>
+              <div class="list__box">
+                <ul class="technology__list-min">
+                  <li>HTML/CSS</li>
+                  <li>Animate.css</li>
+                  <li>JavaScript</li>
+                  <li>LightBox</li>
+                  <li>Axios</li>
+                  <li>React</li>
+                  <li>ReduxToolkit</li>
+                  <li>Pagination</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <h3 class="technology__title-min">Back-End</h3>
+              <div class="list__box">
+                <ul class="technology__list-min">
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>Mongoose</li>
+                  <li>Swagger</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <h3 class="technology__title-min">Back-End</h3>
+              <div class="list__box">
+                <ul class="technology__list-min">
+                  <li>VSCode</li>
+                  <li>Webpack</li>
+                  <li>Parcel</li>
+                  <li>Figma</li>
+                  <li>Git/GitHub</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer__section footer section">
+      <div class="container footer__container">
+        <img
+          class="title"
+          src="./images/background-images/thanks-tittle.png"
+          alt=""
+        />
+        <img
+          class="footer__img"
+          src="./images/background-images/Ellipse-161.png"
+          width="205"
+          height="205"
+        />
+      </div>
+    </footer>
+  </body>
+</html> 
